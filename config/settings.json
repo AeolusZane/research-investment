@@ -1,0 +1,28 @@
+{
+  "data_dir": "data",
+  "reports_dir": "reports",
+  "log_level": "INFO",
+  "language": "zh-CN",
+  "timezone": "Asia/Shanghai",
+  "data_sources": {
+    "news": {
+      "eastmoney": "https://www.eastmoney.com",
+      "cls": "https://www.cls.cn"
+    },
+    "market_data": {
+      "akshare": "A股行情",
+      "yfinance": "美股/港股",
+      "fred": "宏观数据"
+    },
+    "sentiment": {
+      "xueqiu": "https://xueqiu.com",
+      "eastmoney_guba": "https://guba.eastmoney.com"
+    }
+  },
+  "briefing": {
+    "max_news_items": 20,
+    "max_sector_news": 5,
+    "include_macro": true,
+    "include_sentiment": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "watchlist": {
+    "A股": {
+      "600519.SH": "贵州茅台",
+      "000858.SZ": "五粮液",
+      "300750.SZ": "宁德时代",
+      "601318.SH": "中国平安",
+      "002594.SZ": "比亚迪"
+    },
+    "港股": {
+      "00700.HK": "腾讯控股",
+      "09988.HK": "阿里巴巴",
+      "03690.HK": "美团"
+    },
+    "美股": {
+      "AAPL": "Apple",
+      "NVDA": "NVIDIA",
+      "TSLA": "Tesla",
+      "MSFT": "Microsoft"
+    }
+  },
+  "sectors": [
+    "白酒",
+    "新能源",
+    "AI/半导体",
+    "创新药",
+    "消费电子"
+  ],
+  "macro_indicators": [
+    "CPI",
+    "PMI",
+    "社融",
+    "M2",
+    "美联储利率"
+  ],
+  "alert_rules": {
+    "price_change_threshold": 0.05,
+    "volume_spike_threshold": 3.0,
+    "sentiment_spike_threshold": 2.0
+  }
+}
